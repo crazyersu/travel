@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'styles/reset.css'
+import 'styles/border.css'// 解决移动端1px边框问题
+import 'styles/iconfont.css'
+// import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
 
